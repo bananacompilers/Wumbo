@@ -1,0 +1,8 @@
+Input e Output são instruções, não funções como o C.
+Como foi falado BEGIN, END, INPUT, OUTPUT, RETURN são keywords
+
+Name NAME e name, serão iguais
+
+sempre haverá BEGIN e END no começo do programa.
+
+
