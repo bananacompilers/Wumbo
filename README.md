@@ -51,12 +51,11 @@ gcc --version
 
 ## 🛠️ Estrutura do Projeto
 ```
-Compiladores/
-│── Wumbo/
-│   ├── lexer.l         # Definição do analisador léxico (Flex)
-│   ├── lex.yy.c        # Código gerado automaticamente pelo Flex
-│   ├── wumbo-lexer     # Executável do lexer (após compilação)
-│   └── examples/       # Exemplos de programas na linguagem
+Wumbo/
+│── lexer.l         # Definição do analisador léxico (Flex)
+│── lex.yy.c        # Código gerado automaticamente pelo Flex
+│── wumbo-lexer     # Executável do lexer (após compilação)
+│── examples/       # Exemplos de programas na linguagem
 │       ├── hello.w
 │       ├── add.w
 │       └── inputs.w
@@ -70,7 +69,7 @@ Compiladores/
 ### 🔹 No **MSYS2 (MinGW64/UCRT64)**
 1. Entre na pasta do projeto:
    ```bash
-   cd /c/Users/eduar/Documents/GitHub/Compiladores/Wumbo
+   cd /c/Users/eduar/Documents/GitHub/Wumbo
    ```
 2. Gere o código C a partir do lexer:
    ```bash
