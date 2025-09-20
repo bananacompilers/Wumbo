@@ -1,7 +1,7 @@
 # 📌 Projeto de Compiladores – Mini-Compilador
 
 **Disciplina:** Compiladores — UFT  
-**Integrantes:** João Pedro Ribeiro Dias Moraes, Daniel, Eduardo Henrique, Vitor Ferreira Leal
+**Integrantes:** João Pedro Ribeiro Dias Moraes, Daniel Vinicius da Silva, Eduardo Henrique, Vitor Ferreira Leal.
 
 ---
 
