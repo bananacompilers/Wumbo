@@ -9,7 +9,6 @@ comando = declaracao
         | entrada
         | saida
         | while
-        | retorno
         | comentario ;
 
 declaracao = tipo lista_decl ";" ;
@@ -35,10 +34,7 @@ expressao = termo { operador termo } ;
 
 termo = ID
       | NUM
-      | STRING
-      | chamada_funcao ;
-
-chamada_funcao = ID "->" ID ;
+      | STRING ;
 
 operador = "+" | "-" | "*" | "/" | "==" | "!=" | "<" | ">" | "?" ;
 
