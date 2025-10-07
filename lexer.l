@@ -66,4 +66,4 @@ SQS     \'([^\'\\]|\\.)*\'
 
 %%
 
-int main(void){ yylex(); return 0; }
+/* int main(void){ yylex(); return 0; } */
